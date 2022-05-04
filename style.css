@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
 @media (min-width: 767.98px) {
   #my-logo {
     margin-left: 175px;
@@ -6,4 +8,47 @@
   #navbarNav {
     margin-right: 175px;
   }
+
+  .headline-section {
+    background-image: url("./images/headline.svg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom-left-radius: 75px;
+    height: 100vh;
+  }
+
+  .headline {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .display-1 {
+    width: 927px;
+    height: 122px;
+  }
+}
+
+.headline-section {
+  background-image: url("./images/background.svg");
+  height: 100vh;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-bottom-left-radius: 75px;
+}
+
+.headline-icons {
+  list-style-type: none;
+  display: flex;
+  gap: 0.9rem;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }
