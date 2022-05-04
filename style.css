@@ -22,9 +22,9 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    padding-top: 120px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-top: 160px;
+    padding-left: 150px;
+    padding-right: 170px;
   }
 
   .display-1 {
@@ -51,4 +51,5 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  position: relative;
 }
