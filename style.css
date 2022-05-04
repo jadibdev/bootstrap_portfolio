@@ -31,6 +31,12 @@
     width: 927px;
     height: 122px;
   }
+
+  .project-card {
+    display: flex;
+    flex-direction: row;
+    width: 60rem;
+  }
 }
 
 .headline-section {
