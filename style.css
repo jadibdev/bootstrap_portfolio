@@ -59,3 +59,8 @@ body {
   font-family: "Poppins", sans-serif;
   position: relative;
 }
+
+.labels {
+  display: flex;
+  gap: 0.6rem;
+}
