@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+@media (min-width: 767.98px) {
+  #my-logo {
+    margin-left: 175px;
+  }
+
+  #navbarNav {
+    margin-right: 175px;
+  }
+
+  .headline-section {
+    background-image: url("./images/headline.svg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom-left-radius: 75px;
+    height: 100vh;
+  }
+
+  .headline {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 160px;
+    padding-left: 150px;
+    padding-right: 170px;
+  }
+
+  .display-1 {
+    width: 927px;
+    height: 122px;
+  }
+
+  .project-card {
+    display: flex;
+    flex-direction: row;
+    width: 60rem;
+  }
+
+  .languages {
+    display: flex;
+    gap: 1.2rem;
+  }
+
+  #contact-shapes-mobile {
+    display: none;
+  }
+
+}
+
+.headline-section {
+  background-image: url("./images/background.svg");
+  height: 100vh;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-bottom-left-radius: 75px;
+  margin-top: 100px;
+}
+
+.headline-icons {
+  list-style-type: none;
+  display: flex;
+  gap: 0.9rem;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.labels {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.arrow-languages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  margin-top: 3rem;
+}
+
+.contact-form {
+  background-repeat: no-repeat;
+  background-size: 400px;
+  border-bottom-left-radius: 75px;
+  background-color: #6070ff;
+  color: white;
+  margin-top: 30px;
+}
+
+.contact-form h1 {
+  margin-top: 45px;
+}
+
+#contact-shapes-mobile {
+  position: relative;
+  left: 260px; 
+}
+
+form p {
+  text-align: center;
+}
