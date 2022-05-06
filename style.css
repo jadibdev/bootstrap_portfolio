@@ -69,3 +69,12 @@ body {
   display: flex;
   gap: 0.6rem;
 }
+
+.arrow-languages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  margin-top: 3rem;
+}
